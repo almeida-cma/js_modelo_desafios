@@ -1,0 +1,16 @@
+função calcular():
+  // Obter os valores dos campos de entrada
+  ler num1
+  ler num2
+
+  // Verificar se os valores são números
+  se num1 não é um número OU num2 não é um número:
+    exibir 'Por favor, insira números válidos.'
+    retornar
+
+  // Calcular a soma dos números
+  resultado = num1 + num2
+
+  // Exibir o resultado na página
+  exibir 'Resultado: ' + resultado
+fim função
